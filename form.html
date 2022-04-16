@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="keyword" content="All input tag features in html">
+    <meta name="describtion" content="Free web tutorials for HTML and CSS">
+    <meta name="author" cotent="Satish Kolde">
+    <!-- <meta http-equiv="refresh" content="10"> -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width" intial-scale="1.0">
+    <meta charset="utf-8">
+    <title>Input tag all features</title>
+
+</head>
+
+<body>
+    <form action="mailto:satishkolde@gmaill.com" method="post" autocomplete enctype="text/plain">
+        <table>
+            <tr>
+                <td><label for="user_name">Name :</label></td>
+                <td><input type="text" name="user_name" id="user_name" list placeholder="Enter your name" spellcheck="true"
+                required></td>
+            </tr>           
+            <tr>                    
+                <td><label for="user_father_name">Father Name : </label></td>
+                <td><input type="text" name="user_father_name" id="user_father_name" list placeholder="Enter Father Name"
+                    spellcheck="true" required></td>
+            </tr>
+            <tr>
+                <td><label for = "date_of_birth">Date of Birth :</label></td>
+                <td><input type = "date" name = "date_of_birth" id = "date_of_birth" required></td>
+            </tr>
+            <tr>
+                <td><label for="date_of_birth_">Date of Birth :</label></td>
+                <td><input type= "datetime-local" name = "date_of_birth" id ="date_of_birth_" required></td>
+                <td><input type="month" name = "date_of_birth" id = "date_of_birth_" required></td>
+            </tr>
+            <tr>            
+                <td><label for="gender">Gender :</label></td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input type="radio" name = "gender" id = "gender" value ="Male"> Male</td>
+                            <td><input type="radio" name = "gender" id = "gender" value ="Female">Female</td>
+                            <td><input type="radio" name = "gender" id = "gender" value ="Transgender" checked>Transgender</td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+            <tr>
+                <td><label for="email">E-mail :</label></td>
+                <td><input type= "email" name = "email" id = "email" required placeholder="satish@gamil.com"></td>
+            </tr>
+            <tr>
+                <td><label for="color">Enter Your Faviourate Color :</label></td>
+                <td><input type="color" required name = "color"></td>
+            </tr>
+            <!-- <tr>
+                <td><label for="hair">How many HAIRs are remeaing on your head</label></td>
+                <td><input type="range" name = "hair" id="hair" required autofocus></td>
+            </tr> -->
+            <tr>
+                <td><label for="mobile_number">Mobile Number :</label></td>
+                <td><input type="number" name = "mobile_number" id = "mobile_number" required></td>
+            </tr>
+            <tr>
+                <td><label for="tel">Enter Your Telephone Number :</label></td>
+                <td><input type="tel" name = "Telephone" id ="tel" required placeholde = "Enter your Telephone Number"></td>
+            </tr>
+            <tr>
+                <td><label for="profile_pic">Upload Your Profile Pic</label></td>
+                <td><input type="file" capture = "user" accept="image/*" id = "profile_pic"></td>
+            </tr>
+            <tr>
+                <td><label for="Audio">Upload Your Audio :</label></td>
+                <td><input type ="file" capture ="user" accept="audio/*" id ="Audio"></td>
+            </tr>
+            <tr>
+                <td><label for="Video">Upload Your Video :</label></td>
+                <td><input type="file" capture ="user" accept="video/*" id = "Video"></td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input type="submit"></td>
+                            <td><input type="reset"></td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+            <hr>
+            <!-- <tr>               
+                <table>
+                    <tr>
+                        <td><input type="url" placeholder="Enter any url Here"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="week"></td>
+                    </tr>
+                </table>
+            </tr> -->
+        </table>
+    </form>
+</body>
+
+</html>
